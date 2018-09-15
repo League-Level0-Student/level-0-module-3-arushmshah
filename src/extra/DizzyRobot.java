@@ -12,13 +12,14 @@ public class DizzyRobot {
 	public static void main(String[] args) {
 		
 		 // 2. Ask the user how dizzy you want the robot from 1-10, then spin that number of times.
-String dizzy = JOptionPane.showInputDialog("How dizzy do you want your robot, 1-10?");
-dance(dizzy);
+String dizzy = JOptionPane.showInputDialog("How dizzy do you want your robot? Choose a number from 1-10.");
+int times=Integer.parseInt(dizzy);  
+dance(times);
  // 1. Use the dance method to make the robot spin.
 	
 	}
 
-	static void dance(String dizzy) {
+	static void dance(int dizzy) {
 		for (int i = 0; i < dizzy; i++) {
 			robot.turn(360);
 		}
