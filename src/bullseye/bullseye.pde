@@ -1,11 +1,4 @@
 background(#868F90);
-ellipse(50,50,100,100);
-ellipse(50,50,90,90);
-ellipse(50,50,80,80);
-ellipse(50,50,70,70);
-ellipse(50,50,60,60);
-ellipse(50,50,50,50);
-ellipse(50,50,40,40);
-ellipse(50,50,30,30);
-ellipse(50,50,20,20);
-ellipse(50,50,10,10);
+for(int i=10; i>0; i--){
+ellipse(50,50,i*10,i*10);
+}
