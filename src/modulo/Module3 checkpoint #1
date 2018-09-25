@@ -1,0 +1,11 @@
+Modulo Checkpoint module 3 
+
+1. Write a for loop that will print out all the odd numbers up to 500.
+for(int i=0; i<500; i++){
+if(i%2==0){
+
+}
+else{
+JOptionPane.showMessageDialog(i)
+}
+}
